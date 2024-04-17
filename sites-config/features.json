@@ -1,0 +1,96 @@
+{
+  "features": [
+    {
+      "name": "robots",
+      "templateType": "JS",
+      "staticPage": {}
+    },
+    {
+      "name": "Dashboards",
+      "streamId": "my-stream-prof-dashboard",
+      "templateType": "JS",
+      "entityPageSet": {}
+    }
+  ],
+  "streams": [
+    {
+      "$id": "my-stream-prof-dashboard",
+      "fields": [
+        "slug",
+        "id",
+        "name",
+        "uid",
+        "meta",
+        "c_preferredName",
+        "c_jobTitle",
+        "c_fullBiography",
+        "c_languagesSpoken",
+        "photoGallery",
+        "emails",
+        "hours",
+        "mainPhone",
+        "address.line1",
+        "address.line2",
+        "address.line3",
+        "address.postalCode",
+        "headshot",
+        "address.region",
+        "address.sublocality",
+        "addressHidden",
+        "address.city",
+        "address.countryCode",
+        "address.extraDescription",
+        "c_educationDetails.degree",
+        "c_educationDetails.school",
+        "c_hobbiesAndInterests",
+        "c_photoGallery.alternateText",
+        "c_photoGallery.height",
+        "c_photoGallery.url",
+        "c_photoGallery.width",
+        "c_taskGroups",
+        "c_officeHours",
+        "c_teamMembers.name",
+        "c_teamMembers.c_jobTitle",
+        "c_teamMembers.slug",
+        "c_teamMembers.headshot",
+        "c_professionalsInsuranceProducts.id",
+        "c_professionalsInsuranceProducts.landingPageUrl",
+        "c_professionalsInsuranceProducts.bodyV2",
+        "c_professionalsInsuranceProducts.c_blogShortDescription",
+        "c_professionalsInsuranceProducts.name",
+        "c_professionalsInsuranceProducts.c_category",
+        "c_professionalsInsuranceProducts.datePosted",
+        "c_professionalsInsuranceProducts.photoGallery",
+        "c_color",
+        "c_fonts",
+        "c_heroBanner",
+        "c_template",
+        "geocodedCoordinate",
+        "c_teamDescription",
+        "c_teamName",
+        "c_licensedStates",
+        "c_professionalSecondaryAddress.id",
+        "c_professionalSecondaryAddress.name",
+        "c_professionalSecondaryAddress.primaryPhoto",
+        "c_professionalSecondaryAddress.address",
+        "c_insuranceProducts",
+        "c_agencyName",
+        "c_shortBio",
+        "certifications"
+      ],
+      "filter": {
+        "entityTypes": [
+          "financialProfessional"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "source": "knowledgeGraph",
+      "destination": "pages"
+    }
+  ]
+}
