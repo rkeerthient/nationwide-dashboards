@@ -15,7 +15,7 @@ const TasksSection = ({ tasks, document }: any) => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button
-                      className={`dashboardPrimaryBG flex w-full justify-start px-4 py-2 text-left text-sm font-medium text-white`}
+                      className={`containerBG flex w-full justify-start px-4 py-2 text-left text-sm font-medium text-white`}
                     >
                       <div className="flex flex-col gap-2">
                         <div className="flex gap-4 text-xl">

@@ -47,8 +47,8 @@
   @apply bg-sky-700 hover:bg-sky-800;
 }
 
-.dashboardPrimaryBG {
-  @apply bg-[#d62311];
+.containerBG {
+  @apply bg-[#0047bb];
 }
 
 .accordion__button:before {
