@@ -33,7 +33,7 @@ const DBBanner = (props: DBBanner) => {
 
   return (
     <>
-      <div className="text-white p-4 flex items-center justify-center flex-row space-x-20 w-full containerBG">
+      <div className="text-white p-4 flex items-center justify-center flex-row space-x-20 w-full dashboardPrimaryBG">
         <div className="flex items-center flex-row  gap-4">
           <div className="  w-48">
             {headshot && (

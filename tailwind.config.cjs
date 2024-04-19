@@ -22,7 +22,7 @@ module.exports = {
         neutral: "var(--neutral-color, #4b5563)",
         "neutral-light": "var(--neutral-color-light, #9ca3af)",
         "neutral-dark": "var(--neutral-color-dark, #1f2937)",
-        containerBG: "#0047bb",
+        containerBG: "#f9fafb",
         fieldBlurBorder: "#e1e5e8",
         fieldFocusBorder: "#1564F9",
         textColor: "#374151",
